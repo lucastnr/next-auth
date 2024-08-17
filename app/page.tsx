@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
-import { createClient } from "./utils/supabase";
+import { createClient } from "../utils/supabase";
 import { useState } from "react";
 import { AuthForm } from "./components/AuthForm";
 
