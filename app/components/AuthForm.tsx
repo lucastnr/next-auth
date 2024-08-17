@@ -61,11 +61,12 @@ export function AuthForm() {
         <Button
           variant="link"
           className="p-0 h-min text-base"
-          onClick={() =>
-            setFormType((prevType) =>
-              prevType === "register" ? "login" : "register"
-            )
-          }
+          onClick={() => {
+            if (!loading)
+              setFormType((prevType) =>
+                prevType === "register" ? "login" : "register"
+              );
+          }}
         >
           {formType === "login" ? "Register" : "Sign In"}
         </Button>
