@@ -12,7 +12,7 @@ export function Header() {
         className="ml-auto"
         variant="destructive"
       >
-        <LogOut size="14" strokeWidth={3} className="mr-2" /> Sign Out
+        <LogOut size="14" strokeWidth={3} className="mr-2" /> Logout
       </Button>
     </div>
   );
