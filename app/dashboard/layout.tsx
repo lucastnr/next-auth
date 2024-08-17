@@ -19,7 +19,7 @@ export default async function DashboardLayout({
 
   return (
     <div>
-      <Header />
+      <Header user={user} />
       {children}
     </div>
   );
